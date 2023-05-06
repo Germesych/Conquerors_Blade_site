@@ -1,0 +1,22 @@
+.top-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.top-nav-main {}
+.top-nav-main__list {
+  display: flex;
+  gap: 0 30px;
+}
+.top-nav-main__items {}
+.top-nav-main__link {
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 600;
+
+  &:hover {
+    color: var(--accent);
+    transition: color 0.5s ease-in-out;
+  }
+}
